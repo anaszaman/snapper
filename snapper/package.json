@@ -1,0 +1,33 @@
+{
+  "name": "impact",
+  "version": "1.0.0",
+  "description": "An experiment that features a customizable gameboy",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "prod": "vercel --prod"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "4.2",
+    "r3f-perf": "^7.2.3",
+    "typescript": "^5.7.3",
+    "vite": "^5.2.10",
+    "vite-plugin-restart": "^0.4.0"
+  },
+  "dependencies": {
+    "@react-three/drei": "^9.105.4",
+    "@react-three/fiber": "^8.16.2",
+    "@react-three/postprocessing": "^2.16.2",
+    "animate.css": "^4.1.1",
+    "leva": "^0.9.35",
+    "react": "18.3",
+    "react-dom": "18.3",
+    "simplex-noise": "^4.0.3",
+    "three": "^0.164.1",
+    "three-custom-shader-material": "^6.2.1",
+    "vercel": "^35.1.0"
+  }
+}
